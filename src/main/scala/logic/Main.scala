@@ -12,5 +12,5 @@ object Main {
 
   def doIt(): Int = 2+2
 
-  ScreepGlobalScope.module.main = doIt
+  ScreepGlobalScope.module.foo = doIt
 }
