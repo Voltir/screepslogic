@@ -3,7 +3,7 @@ package logic
 import scala.scalajs.js
 import js.annotation.JSExport
 import js.Dynamic.{ global => g }
-@JSExport("module.exports")
+@JSExport
 object Main {
   g.console.log("OMG WAT?")
   @JSExport
